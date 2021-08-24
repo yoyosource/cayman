@@ -36,21 +36,19 @@ body {
 }
 
 #skip-to-content {
-  height: 1px;
-  width: 1px;
+  //position
   position: absolute;
-  overflow: hidden;
-  top: -10px;
-  border-radius: 1px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+  //style
+  border-radius: 5px;
+  background: hsla(0, 0%, 10%, 10%);
+  color: white;
+  transition: 0.5s;
+  padding: 2px 5px;
 
-  &:focus {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    height: auto;
-    width: auto;
-    background: var(--body-link-color);
-    outline: solid var(--body-link-color);
+  &:focus{
+    transform: translateX(-50%);
   }
 }
 
