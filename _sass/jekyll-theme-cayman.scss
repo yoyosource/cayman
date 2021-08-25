@@ -50,6 +50,7 @@ body {
   //styling
   transition: 0.5s;
   font-size: 20px;
+  text-align: center;
 
   &:focus{
     transform: translateX(-50%) translateY(30%);
