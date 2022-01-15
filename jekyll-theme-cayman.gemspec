@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = "jekyll-theme-cayman"
-  s.version       = "0.2.0"
+  s.version       = "0.3.0"
   s.license       = "CC0-1.0"
   s.authors       = ["Jason Long", "GitHub, Inc."]
   s.email         = ["opensource+jekyll-theme-cayman@github.com"]
