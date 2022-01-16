@@ -1,0 +1,41 @@
+div.box {
+  padding: 10px;
+  background-color: var(--info-box-bg-color);
+  border-radius: 5px;
+}
+
+div.box > details {
+  cursor: pointer;
+}
+
+div.box > details > summary {
+  list-style: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+div.box > details > summary > div {
+  display: inline;
+}
+
+div.box > details > summary > div > strong.info {
+  color: #379BA1;
+}
+
+div.box > details > summary > div > strong.warning {
+  color: #ffaa00;
+}
+
+div.box > details > summary > img {
+  width: 22px;
+  vertical-align: middle;
+  margin-left: 5px;
+  float: right;
+}
+
+div.box > details > div {
+  margin-top: 5px;
+}
