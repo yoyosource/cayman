@@ -17,6 +17,10 @@ div.box > details > summary {
   -ms-user-select: none;
 }
 
+div.box > details > summary::marker {
+  display: none;
+}
+
 div.box > details > summary > div {
   display: inline;
 }
