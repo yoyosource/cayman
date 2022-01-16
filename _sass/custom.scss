@@ -14,6 +14,7 @@ div.box > details {
 div.box > details[open] {
   max-height: 99em;
   transition: all 1s ease;
+  overflow: hidden;
 }
 
 div.box > details > summary {
