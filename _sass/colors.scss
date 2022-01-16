@@ -39,6 +39,9 @@
     
     // Misilainius
     --bg-color: white;
+
+    // Info-Box
+    --info-box-bg-color: #00000010;
   }
   
   @mixin dark-colors {
@@ -76,6 +79,9 @@
   
     // Misilainius
     --bg-color:hsl(0, 0%, 10%);
+
+    // Info-Box
+    --info-box-bg-color: #00000010;
   }
 
 @mixin experimental-black-code-block-colors {
